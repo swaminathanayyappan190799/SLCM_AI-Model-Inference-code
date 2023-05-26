@@ -48,7 +48,7 @@ class classification_inference():
     Main function to perform classification model inference
     """
     try:
-        logger.info("Initiating classification model infernce")
+        logger.info("Initiating classification model inference")
         interpreter = self.load_classification_model(os.path.join(os.getcwd(),"models","classifier.tflite"))
         labels_list = self.load_classifier_labels(os.path.join(os.getcwd(),"models","labels.txt"))
         new_img = cv2.resize(self.input_img, (224, 224))
