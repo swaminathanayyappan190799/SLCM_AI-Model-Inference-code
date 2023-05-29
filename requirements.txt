@@ -5,3 +5,4 @@ torchaudio==0.13.0
 ultralytics
 scikit-image
 pyqt5
+ipywidgets
